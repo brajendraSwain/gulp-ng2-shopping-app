@@ -1,7 +1,7 @@
 # gulp-ng2-shopping-app
 build set up through gulp and webpack
 
-In order to start the seed use:
+In order to start the project use:
 ### Installation
 ####1. Clone this project or Download that ZIP file
 
@@ -28,8 +28,8 @@ Open `http://localhost:8000/` on the browser
 
 
 ```sh
-$ gulp build
+$ gulp build -- This command will bundle all the javascript depnedecies and generate single bundle.js, which we can use at the time of production deployment.
 ```
-This command will bundle all the javascript depnedecies and generate single bundle.js, which we can use at the time of production deployment.
+
 
 
