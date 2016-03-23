@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es5",
+    "module": "commonjs",
+    "removeComments": true,
+    "sourceMap": false,
+    "noLib" : false,
+    "sourceMap": true
+  },
+  "exclude": [
+      "node_modules",
+      "wwwroot"
+  ],
+   "files": [
+        "node_modules/angular2/typings/es6-promise/es6-promise.d.ts"
+    ]
+}

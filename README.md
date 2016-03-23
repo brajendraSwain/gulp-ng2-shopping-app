@@ -22,6 +22,10 @@ $ npm install
 ```
 
 ```sh
+$ bower install 
+```
+
+```sh
 $ gulp serve
 ```
 Open `http://localhost:8000/` on the browser

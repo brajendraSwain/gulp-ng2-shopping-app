@@ -1,0 +1,51 @@
+{
+  "name": "angular2-quickstart",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "karma start karma.conf.js --reporters html,dots",
+    "start": "concurrent \"npm run tsc:w\" \"npm run lite\" ",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "watch": "tsc --watch",
+    "clean": "rimraf src/**/*.js src/**/*.js.map src/**/**/**/*.js src/**/**/**/*.js.map ",
+    "lite": "lite-server",
+    "typings": "typings",
+    "postinstall": "typings install",
+    "serve": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "angular2": "2.0.0-beta.9",
+    "systemjs": "0.19.24",
+    "es6-promise": "^3.1.2",
+    "es6-shim": "^0.33.3",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.2",
+    "zone.js": "0.5.15"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.9.3",
+    "concurrently": "^2.0.0",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "gulp": "^3.9.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-tslint": "^3.2.0",
+    "gulp-typescript": "^2.10.0",
+    "jasmine": "2.3.2",
+    "karma": "^0.12.37",
+    "karma-chrome-launcher": "^0.1.4",
+    "karma-cli": "^0.0.4",
+    "karma-html-reporter": "^0.2.7",
+    "karma-jasmine": "^0.3.6",
+    "karma-ng-html2js-preprocessor": "^0.2.1",
+    "rimraf": "^2.4.3",
+    "sass-loader": "^3.2.0",
+    "superstatic": "^1.2.3",
+    "ts-loader": "^0.7.2",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.1"
+  }
+}
