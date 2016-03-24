@@ -19,12 +19,9 @@ module.exports = {
     extensions: ['', '.js', '.ts']
   },
   module: {
-    loaders: [
-    {
+    loaders: [{
       test: /\.ts/, loaders: ['ts-loader'], exclude: /node_modules/
-    },
-     {test: /\.scss$/, loader: ExtractTextPlugin.extract('css!sass')}
-     ]
+    }]
   },
   plugins: debug ? [
     new ExtractTextPlugin("style.css")
